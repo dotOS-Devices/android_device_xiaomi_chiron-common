@@ -21,6 +21,7 @@
 
 # Root extra symlink
 /persist                                                      u:object_r:mnt_vendor_file:s0
+/bt_firmware(/.*)?				              u:object_r:bt_firmware_file:s0
 
 # Sensors
 /(vendor|system/vendor)/bin/init\.panel_info\.sh              u:object_r:qti_init_shell_exec:s0
