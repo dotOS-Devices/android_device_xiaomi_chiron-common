@@ -170,7 +170,7 @@ PRODUCT_PACKAGES += \
     memtrack.msm8998 \
     libdisplayconfig \
     libqdMetaData.system \
-    libtinyxml
+    libtinyxml \
     vendor.display.config@2.0 \
     vendor.display.config@2.0.vendor
 
